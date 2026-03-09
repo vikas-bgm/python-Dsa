@@ -1,6 +1,6 @@
 # another way to count the no of digits
 
-from math import *
+from math import log10
 
 def count(num):
     return(int(log10(num)+1))
